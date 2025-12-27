@@ -6,7 +6,11 @@ let colour_id = document.getElementById("colour_id");
 let change_button = document.getElementById("change_button");
 let reset_button = document.getElementById("reset_button");
 
-
+window.addEventListener("load",()=>{
+	for(let i = 0; i<grid_item.length; i++){
+		grid_item[i].style.backgroundColor = "rgb(255, 0, 0)";
+	}
+})
 
 change_button.addEventListener("click", ()=>{
 	let value = block_id.value;
@@ -17,7 +21,7 @@ change_button.addEventListener("click", ()=>{
 
 reset_button.addEventListener("click", ()=>{
 	for(let i = 0; i<grid_item.length; i++){
-		grid_item[i].style.backgroundColor = "transparent";
+		grid_item[i].style.backgroundColor = "rgb(255, 0, 0)";
 	}
 	
 });
