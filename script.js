@@ -8,7 +8,7 @@ let reset_button = document.getElementById("reset_button");
 
 window.addEventListener("load",()=>{
 	for(let i = 0; i<grid_item.length; i++){
-		grid_item[i].style.backgroundColor = "rgb(255, 0, 0)";
+		grid_item[i].style.backgroundColor = "rgba(0, 0, 0, 0)";
 	}
 })
 
