@@ -10,5 +10,6 @@
 
 .grid-container > div{
 	border:1px solid black;
+	background-color:rgb(255, 0, 0);
 }
 
